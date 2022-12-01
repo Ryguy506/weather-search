@@ -79,6 +79,7 @@ function getWeather(searchValue) {
                         + "<img src=" + iconUrl + ">"
                         + "<ul>" + "Temperature: " + Math.round(fiveData.list[i].main.temp) + "°C" + "</ul>"
                         + "<ul>" + "Humidity: " + fiveData.list[i].main.humidity + "%" + "</ul>"
+                        + "<ul>" + "Wind Speed: " + Math.round(fiveData.list[i].wind.speed) + " " + "km/h" + "</ul>"
                         + "</div>"
                       )
                     }
