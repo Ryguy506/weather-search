@@ -15,3 +15,6 @@ To use this app, simply type in the name of the city you want to search for in t
 ### APIs
 * [OpenWeather](https://openweathermap.org/) used to get weather data
 * [Day.js](https://day.js.org/) for current date and converting unix time to date
+
+## License
+MIT License
